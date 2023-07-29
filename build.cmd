@@ -12,6 +12,8 @@ if exist "%PROGRAMFILES%\Microsoft Visual Studio\2022\Professional\MSBuild\Curre
     set MsBuildExe="%PROGRAMFILES%\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\MSBuild.exe"
 ) else if exist "%PROGRAMFILES%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" (
     set MsBuildExe="%PROGRAMFILES%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe"
+) else if exist "%PROGRAMFILES%\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" (
+    set MsBuildExe="%PROGRAMFILES%\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe"
 ) else if exist "%PROGRAMFILES%\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" (
     set MsBuildExe="%PROGRAMFILES%\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe"
 ) else if exist "%PROGRAMFILES(X86)%\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\MSBuild.exe" (
